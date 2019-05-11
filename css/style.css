@@ -1,0 +1,109 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+input::placeholder{
+    color: rgba(0,0,0,0.2);
+    font-weight: 300;
+}
+.border-radius{
+    border-radius: 4px;
+}
+.border-gradient{
+    border: 3px solid;
+    border-image-source: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border-image-slice: 1;
+}
+.text-gradient{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.col-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-image{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    padding-bottom: 50px;
+}
+.header-image nav{
+    padding-bottom: 50px;
+}
+.header-image nav .nav-item a.nav-link{
+    color: rgba(255,255,255,0.7);
+}
+.header-image nav .nav-item.active a.nav-link{
+    color: #fff;
+}
+nav .navbar-toggler{
+    color: #fff;
+}
+.header-image .row > div{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.header-image .row > div .card{
+    color: #000;
+}
+.header-image .row > div .card button{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    color: #fff;
+    transition: all 0.5s;
+}
+.header-image .row > div .card button:hover{
+    background-image: none;
+    background-color: #f9d423;
+}
+.header-image .row > div.ch1{
+    justify-content: center;
+}
+.header-image .row > div.ch2{
+    justify-content: center;
+}
+footer{
+    padding: 50px 0px 20px;
+    background-color: #f83600;
+    color: rgba(255,255,255,0.8);
+}
+footer hr{
+    background-color: #fff;
+    width: 50%;
+    margin-left: 0;
+}
+footer a{
+    color: #fff;
+    font-weight: 300;
+}
+.footer-copy{
+    background-color: #000;
+    padding: 20px;
+    font-size: 12px;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header-image .row > div.ch1{
+        justify-content: flex-end;
+    }
+    .header-image .row > div.ch2{
+        justify-content: flex-start;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
